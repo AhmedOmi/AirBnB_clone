@@ -48,3 +48,33 @@ h4 {
     height: 100%;
     width: 25%;
 }
+
+.popover {
+    background-color: #FAFAFA;
+    color: #484848;
+    width: 100%;
+    border: #DDDDDD 1px solid;
+    border-radius: 4px;
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    visibility: hidden;
+    z-index: 1;
+    position: relative;
+    margin-top: 17px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.popover li {
+    margin: 20px 40px;
+}
+
+.locations:hover .popover {
+    display: block;
+    visibility: visible;
+}
+
+.filters .amenities:hover .popover {
+    display: block;
+    visibility: visible;
+}
