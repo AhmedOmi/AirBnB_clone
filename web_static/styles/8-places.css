@@ -30,8 +30,8 @@
 .places h2 {
     font-size: 30px;
     text-align: center;
-    width: 100%;
-    align-content: center;
+    padding-left: 100px;
+    margin-right: 70px;
 }
 
 .price_by_night {
@@ -52,13 +52,11 @@
     border-top: #DDDDDD solid 1px;
     display: flex;
     font-size: 16px;
-    flex-flow: row nowrap;
     justify-content: space-around;
     width: 100%;
 }
 
 .max_guest {
-    width: 100px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -102,4 +100,9 @@
 
 .user {
     padding: 10px 0;
+}
+
+article span
+{
+    padding-top: 40px;
 }
